@@ -1,6 +1,4 @@
-
-
-
+<%- include("header.ejs", { title: "Registrate"}) %>
 
     <div class="row mt-5">
         <div class="col-sm-10 offset-sm-1 col-md-6 offset-md-3 py-3">
@@ -10,28 +8,28 @@
               <h4>Registrarse</h4>
             </div>
             <div class="form-group">
-              <label for="title">Nombre</label>
+              <label for="firstName">Nombre</label>
               <input type="text" class="form-control" placeholder="" name="firstName">
             </div>
       
             <div class="form-group">
-              <label for="imageUrl">Apellido</label>
+              <label for="lastName">Apellido</label>
               <input type="text" class="form-control" placeholder="" name="lastName">
             </div>
       
             <div class="form-group">
-              <label for="title">Email</label>
+              <label for="email">Email</label>
               <input type="email" class="form-control" placeholder="name@example.com" name="email">
             </div>
   
             <div class="form-group">
-              <label for="title">Contraseña</label>
+              <label for="password">Contraseña</label>
               <input type="password" class="form-control" placeholder="" name="password">
             </div>
   
             <div class="form-group">
-              <label for="imageUrl">Imagen de usuario:</label>
-              <input type="text" class="form-control" placeholder="" name="imageUrl">
+              <label for="profilePicture">Imagen de usuario:</label>
+              <input type="text" class="form-control" placeholder="" name="profilePicture">
             </div>
       
             <button type="submit" class="btn btn-primary">Registrarse</button>
@@ -39,4 +37,4 @@
         </div>
       </div>
 
-
+<%- include("footer.ejs" %>
